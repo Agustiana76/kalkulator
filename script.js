@@ -22,7 +22,7 @@ const inputNumber = (number) => {
     currentNumber = number;
   } else {
     currentNumber += number;
-  }
+  };
 };
 
 const operators = document.querySelectorAll(".operator");
